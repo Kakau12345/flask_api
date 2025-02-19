@@ -2,8 +2,8 @@ from flask import Flask, request, jsonify, render_template_string, render_templa
 
 app = Flask(__name__)
 
-USERNAME = "pipizaograndao"
-PASSWORD = "03122008"
+USERNAME = "usuario"
+PASSWORD = "1234"
 
 
 @app.route('/')
